@@ -53,14 +53,18 @@ body {
   padding: 0;
 }
 .container .card .card-tags ul li {
+  display: inline-block;
   background-color: var(--primary-yellow);
   width: 4vw;
   padding: 5px;
-  margin: 0;
+  margin-left: 5px;
   font-size: 0.8rem;
   font-weight: 800;
   text-align: center;
   border-radius: 5px;
+}
+.container .card .card-tags ul li:first-child {
+  margin-left: 0;
 }
 .container .card .card-content {
   display: flex;
