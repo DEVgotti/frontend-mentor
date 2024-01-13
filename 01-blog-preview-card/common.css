@@ -39,6 +39,7 @@ body {
   border-radius: 20px;
   box-shadow: 8px 8px 0px var(--neutral-black);
   padding: 20px;
+  border: 1px solid var(--neutral-black);
 }
 .container .card header {
   width: 100%;
